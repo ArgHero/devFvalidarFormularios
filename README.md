@@ -4,3 +4,6 @@
 4. Seleccionar una fecha para el evento.
 5. Subir un archivo opcional (como una identificación).
 6. Validar los datos antes de enviarlos.
+
+
+Nota: git subtree push --prefix dist origin gh-pages

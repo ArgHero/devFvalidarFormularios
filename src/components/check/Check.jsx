@@ -13,7 +13,7 @@ function Check(props){
             checked={isChecked} 
             onChange={()=>handleCheck(interes)}
         />
-        <label htmlFor={"chk"+interes}> {interes}</label>
+        <label htmlFor={"chk"+interes}>{interes}</label>
     </div>
     )
 }
