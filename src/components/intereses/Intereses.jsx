@@ -25,7 +25,7 @@ function Intereses(props){
                     interes={interes} 
                     key={interes}
                     grupo="intereses"
-                    isChecked={setFormulario[interes]}
+                    checked={formulario.intereses[interes]}
                     handleCheck={handleCheck}
                 />
             )}

@@ -2,7 +2,7 @@ import "./Check.css"
 //import { useState } from "react";
 
 function Check(props){
-    const {interes,grupo,isChecked,handleCheck} = props;
+    const {interes,grupo,checked,handleCheck} = props;
     
     return(
     <div className="text-start m-1">
@@ -10,7 +10,8 @@ function Check(props){
             type="checkbox" 
             name={grupo} 
             id={"chk"+interes} 
-            checked={isChecked} 
+
+            checked={checked} 
             onChange={()=>handleCheck(interes)}
         />
         <label htmlFor={"chk"+interes}>{interes}</label>

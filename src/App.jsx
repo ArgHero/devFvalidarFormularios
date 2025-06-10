@@ -10,7 +10,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <main>
+    <main className='container'>
       <h1>Validación de un forumlario</h1>
       <Formulario />
     </main>
